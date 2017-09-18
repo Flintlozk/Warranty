@@ -1,0 +1,54 @@
+@smallScreen:900px;
+
+@fujikoWhite:#ffffff;
+@fujikoBlue:#3791C9;
+@fujikoGrey:#f2f2f2;
+@fujikoGray:@fujikoGrey;
+@txtColor:#8b8b8b;
+
+@h2Height:35px;
+@h3Height:35px;
+
+*,body{
+  font-family: 'Kanit', serif;
+  color:@txtColor;
+  font-size:20px;
+  font-weight:lighter;
+  line-height:28px;
+}
+a{
+  cursor:pointer;
+  color:inherit;
+  &:hover{
+    text-decoration:none;
+  }
+  i{
+    color:inherit;
+  }
+}
+.fujikoBlueFill{
+  fill:@fujikoBlue;
+}
+.fujikoBlueTxt{
+  color:@fujikoBlue;
+}
+.fujikoBlueBg{
+  background-color:@fujikoBlue;
+}
+
+.tooltip.top .tooltip-arrow {
+    border-top-color: @fujikoBlue;
+}
+
+.tooltip.right .tooltip-arrow {
+    border-right-color: @fujikoBlue;
+}
+
+.tooltip.bottom .tooltip-arrow {
+    border-bottom-color: @fujikoBlue;
+}
+
+.tooltip.left .tooltip-arrow {
+    border-left-color: @fujikoBlue;
+}
+.tooltip > .tooltip-inner {background-color: @fujikoBlue;}
